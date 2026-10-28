@@ -1,0 +1,11 @@
+def tampilkan_ringkasan(data_ringkasan):
+    """Menampilkan hasil olah data statistik ke layar."""
+    print("\n==================================")
+    print("      HASIL ANALISIS NILAI        ")
+    print("==================================")
+    print(f"Jumlah Siswa    : {data_ringkasan['jumlah']}")
+    print(f"Rata-rata Nilai : {data_ringkasan['rata_rata']:.2f}")
+    print(f"Nilai Terendah  : {data_ringkasan['minimum']}")
+    print(f"Nilai Tertinggi : {data_ringkasan['maksimum']}")
+    print(f"Jumlah Lulus    : {data_ringkasan['lulus']}")
+    print("==================================")
